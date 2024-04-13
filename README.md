@@ -74,7 +74,7 @@ FROM
 
 There are total `32` Platforms that has released console games.
 
-![](outputs\1.2.png)
+![](./outputs/1.2.png)
 
 1.3.
 
