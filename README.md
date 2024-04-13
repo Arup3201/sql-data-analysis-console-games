@@ -87,7 +87,7 @@ FROM
 
 There are `12` different genres available in the dataset.
 
-![](outputs\1.3.png)
+![](.\outputs\1.3.png)
 
 2.1.
 
