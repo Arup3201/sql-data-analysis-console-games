@@ -87,7 +87,7 @@ FROM
 
 There are `12` different genres available in the dataset.
 
-![](.\outputs\1.3.png)
+![](./outputs/1.3.png)
 
 2.1.
 
@@ -100,7 +100,7 @@ FROM
 
 There are total `565` publishers who has published console games.
 
-![](outputs\2.1.png)
+![](./outputs/2.1.png)
 
 2.2.
 
@@ -113,7 +113,7 @@ GROUP BY `Year`
 ORDER BY `Game_Created_Count` DESC;
 ```
 
-![](outputs\2.2.png)
+![](./outputs/2.2.png)
 
 2.3.
 
@@ -130,7 +130,7 @@ GROUP BY `Genre`
 ORDER BY `Genre`;
 ```
 
-![](outputs\2.3.png)
+![](./outputs/2.3.png)
 
 2.4.
 
@@ -144,7 +144,7 @@ GROUP BY Platform
 ORDER BY Total_Sales DESC;
 ```
 
-![](outputs\2.4.png)
+![](./outputs/2.4.png)
 
 2.5.
 
@@ -160,7 +160,7 @@ ORDER BY Total_Sales DESC
 LIMIT 1;
 ```
 
-![](outputs\2.5.png)
+![](./outputs/2.5.png)
 
 3.1.
 
@@ -173,7 +173,7 @@ ORDER BY `NA_Sales` DESC
 LIMIT 1;
 ```
 
-![](outputs\3.1.png)
+![](./outputs/3.1.png)
 
 3.2.
 
@@ -186,7 +186,7 @@ ORDER BY `JP_Sales` DESC
 LIMIT 1;
 ```
 
-![](outputs\3.2.png)
+![](./outputs/3.2.png)
 
 3.3.
 
@@ -201,7 +201,7 @@ ORDER BY Total_Sales DESC
 LIMIT 10;
 ```
 
-![](outputs\3.3.png)
+![](./outputs/3.3.png)
 
 3.4.
 
@@ -215,7 +215,7 @@ WHERE
 ORDER BY `Year`;
 ```
 
-![](outputs\3.4.png)
+![](./outputs/3.4.png)
 
 3.5.
 
@@ -229,7 +229,7 @@ WHERE
 ORDER BY `Year`;
 ```
 
-![](outputs\3.5.png)
+![](./outputs/3.5.png)
 
 4.1.
 
@@ -242,7 +242,7 @@ GROUP BY Platform
 ORDER BY Game_Count DESC;
 ```
 
-![](outputs\4.1.png)
+![](./outputs/4.1.png)
 
 4.2.
 
@@ -255,7 +255,7 @@ GROUP BY Genre
 ORDER BY Sales DESC;
 ```
 
-![](outputs\4.2.png)
+![](./outputs/4.2.png)
 
 4.3.
 
@@ -268,7 +268,7 @@ GROUP BY Publisher
 ORDER BY Avg_Sales DESC;
 ```
 
-![](outputs\4.3.png)
+![](./outputs/4.3.png)
 
 4.4.
 
@@ -281,7 +281,7 @@ GROUP BY `Year`, Platform
 ORDER BY `Year`;
 ```
 
-![](outputs\4.3.png)
+![](./outputs/4.3.png)
 
 6.1.
 
@@ -297,7 +297,7 @@ WHERE
             console_games);
 ```
 
-![](outputs\4.4.png)
+![](./outputs/4.4.png)
 
 6.2.
 
@@ -324,7 +324,7 @@ WHERE
 ORDER BY A.`Name`;
 ```
 
-![](outputs\6.2.png)
+![](./outputs/6.2.png)
 
 6.3.
 
@@ -340,7 +340,7 @@ HAVING
 ORDER BY `Sales` DESC;
 ```
 
-![](outputs\6.3.png)
+![](./outputs/6.3.png)
 
 7.1.
 
@@ -356,7 +356,7 @@ FROM
     console_games;
 ```
 
-![](outputs\7.1.png)
+![](./outputs/7.1.png)
 
 7.2.
 
